@@ -27,7 +27,6 @@ This is easily achieved by downloading
 
 Usage Example
 =============
-
 .. code-block:: python3
 
 	# Example_sh1107_featherwing.py
@@ -72,3 +71,4 @@ Once the device, oled frame buffer and rotation are set up you can use any frame
 	    oled.fill_rect(0, 0, WIDTH, HEIGHT, False)   # Clear frame with a fill_rect
 	    oled.text('123456789012345678901234567890', 0, 28, True, size=1)
 	    oled.show()
+
