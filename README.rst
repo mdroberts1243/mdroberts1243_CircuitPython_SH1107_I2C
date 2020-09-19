@@ -27,7 +27,6 @@ This is easily achieved by downloading
 
 Usage Example
 =============
-
 .. code-block:: python3
 
 # Example_sh1107_featherwing.py
@@ -64,6 +63,3 @@ with busio.I2C(board.SCL, board.SDA) as i2c:
     # natively the Featherwing is a 64 x 128 vertical display
     oled = sh1107_i2c.SH1107_I2C(NATIVE_WIDTH, NATIVE_HEIGHT, device)
     oled.rotation = 1     # orient as a horizontal display 128 x 64
-
-
-
